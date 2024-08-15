@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en=US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Color-Comp</title>
+    <link href="styles/home.css" rel="stylesheet" />
+    <!-- <link rel="icon" href=""> -->
+</head>
+
+<body>
+    <div id="bgAnim">
+        <ul class="shapes">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div id="title">
+        <h1>Color - Comp</h1>
+
+        <div id="beginBtn" class="btn" onclick="begin()">Begin</div>
+    </div>
+    <div id="interfaceOne">
+        <div id="inputColor"></div>
+        <input type="color" id="colorPicker" style="display: none;">
+
+        <div id="recColors"></div>
+        <div class="btn" id="generateBtn" onclick="generate()">GO!</div>
+    </div>
+    <script src="scripts/brain.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
